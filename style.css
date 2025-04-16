@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+.navbar {
+  background-color: #0f1111;
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.logo {
+  background-image: url("https://www.pngmart.com/files/23/Amazon-Logo-White-PNG.png");
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+ 
+}
+.nav-logo {
+  height: 50px;
+  width: 100px;
+  
+  
+}
+
+.border :hover {
+  border: 1.5px solid white;
+}
+
+ 
+
+/* box 2 */
+
+.add-first {
+  color: #cccccc;
+  font-size: 0.75rem;
+  margin-left: 17px;
+}
+.add-sec {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+.add-icon {
+  display: flex;
+}
+.border1 :hover {
+      border: 1.5px solid white;
+}
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: peru;
+  height: 40px;
+  
+  border-radius: 4px;
+
+}
+.search-select {
+  background-color: #f3f3f3;
+  width: 50px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  text-align: center;
+  border: none;
+}
+.nav-search:hover {
+  border: 2px solid peru;
+}
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+.icon-search {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+span {
+  font-size: 0.7rem;
+}
+.nav-second {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.nav-cart i {
+  font-size: 25px;
+}
+
+/* panel */
+
+.panel {
+  background-color: #232F3E;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  padding-block: 10px;
+}
+
+.panel-ops p {
+  display: inline;
+  margin-left: 15px;
+}
+.panel-ops {
+  width: 70%;
+  font-size: 0.85rem;
+}
+.panel-deals {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+/* hero section  */
+
+.hero-section {
+  background-image: url("https://m.media-amazon.com/images/I/61AnASun+qL._SX3000_.jpg");
+  height: 300px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.hero-msg {
+  background-color: white;
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin-bottom: 30px;
+}
+.hero-anchor {
+  text-decoration: none;
+  color: #007185;
+}
+
+/* shop-section */
+
+.shop-section {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ background-color: #e2e7e6;
+
+}
+.box {
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+}
+.box-img {
+  height:320px ;
+ background-size: cover;
+ 
+ margin-top: 0.75rem;
+ margin-bottom: 0.75rem;
+
+}
+.box-content {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.box-content a {
+  color: #007185;
+  text-decoration: none;
+}
+
+/* box2 */
+.box2-img {
+  height:320px ;
+ background-size: cover;
+ 
+ margin-top: 0.75rem;
+ margin-bottom: 0.75rem;
+
+}
+.box2-content {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.box2-content a {
+  color: #007185;
+  text-decoration: none;
+}
+
+ /* box3 */
+
+ .box3-img {
+  height:320px ;
+ background-size: cover;
+ margin-top: 0.75rem;
+ margin-bottom: 0.75rem;
+
+}
+.box3-content {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.box3-content a {
+  color: #007185;
+  text-decoration: none;
+}
+
+/* box4 */
+
+
+.box4-img {
+  height:320px ;
+ background-size: cover;
+ margin-top: 0.75rem;
+ margin-bottom: 0.75rem;
+
+}
+.box4-content {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.box4-content a {
+  color: #007185;
+  text-decoration: none;
+}
+
+
+/* box5 */
+
+
+.box5-img {
+  height:320px ;
+ background-size: cover;
+ margin-top: 0.75rem;
+ margin-bottom: 0.75rem;
+
+}
+.box5-content {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.box5-content a {
+  color: #007185;
+  text-decoration: none;
+}
+
+/* box6  */
+
+
+.box6-img {
+  height:320px ;
+ background-size: cover;
+ margin-top: 0.75rem;
+ margin-bottom: 0.75rem;
+
+}
+.box6-content {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.box6-content a {
+  color: #007185;
+  text-decoration: none;
+}
+
+/* box7 */
+
+
+.box7-img {
+  height:320px ;
+ background-size: cover;
+ margin-top: 0.75rem;
+ margin-bottom: 0.75rem;
+
+}
+.box7-content {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.box7-content a {
+  color: #007185;
+  text-decoration: none;
+}
+
+/* box8 */
+
+
+.box8-img {
+  height:320px ;
+ background-size: cover;
+ margin-top: 0.75rem;
+ margin-bottom: 0.75rem;
+
+}
+.box8-content {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.box8-content a {
+  color: #007185;
+  text-decoration: none;
+}
+
+/* footer */
+
+footer {
+  margin-top: 20px;
+}
+
+.foot-panel1 {
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+.foot-panel2 {
+  background-color: #222f3d;
+  color: white;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+ul {
+  margin-top: 30px;
+  color: #DDDDDD;
+}
+
+.foot-panel3 {
+  background-color: #222f3d;
+  border-top: 0.5px solid white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo1 {
+  background-image: url("https://www.pngplay.com/wp-content/uploads/3/White-Amazon-Logo-PNG-HD-Quality.png");
+  background-size: cover;
+  height: 40px;
+  width: 120px;
+}
+.foot-panel4 {
+  background-color: #0f1111;
+  color: white;
+  height: 80px;
+}
+.pages {
+  font-weight: 0.7rem;
+  text-align: center;
+  padding-top: 25px;
+}
+.copyright {
+  font-weight: 0.7rem;
+  text-align: center;
+  padding-top: 5px;
+}
+@media only screen and (max-width :600px) {
+  .shop-section {
+    background-color: #232F3E;
+    flex-direction: column;
+  }
+  .box {
+    width: 100%;
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar {
+    flex-wrap: wrap;
+  }
+  .search-input {
+    width: 250px;
+  }
+  .navbar {
+    height: 100%;
+  }
+  .panel {
+    flex-wrap: wrap;
+  }
+}
